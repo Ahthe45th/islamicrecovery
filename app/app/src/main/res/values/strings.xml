@@ -7,6 +7,9 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="StreakRecord">0 prayers</string>
+    <string name="accountability_groups">Here are the links to a few accountability groups u can use:
+    Group 1
+    Group 2
+    Group 3</string>
 </resources>
