@@ -7,38 +7,97 @@
     tools:context=".FirstFragment">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="136dp"
-            android:layout_height="80dp"
-            android:background="#FFFFFF"
-            android:text="@string/StreakRecord" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background" />
-
-        <EditText
-            android:id="@+id/groups"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="2dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginTop="1dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/accountability_groups"
-            android:textSize="14sp" />
+    <LinearLayout
+        android:id="@+id/streak_panic"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/motivation_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/motivation_button"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/button_onoff_indicator_on"
+        app:layout_constraintBottom_toTopOf="@+id/motivation"
+        app:layout_constraintEnd_toStartOf="@+id/motivation"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/streak_panic" />
+
+    <LinearLayout
+        android:id="@+id/motivation"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/Habits_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/motivation_button">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Habits_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/islamic_learning"
+        app:layout_constraintBottom_toTopOf="@+id/habits_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motivation" />
+
+    <LinearLayout
+        android:id="@+id/habits_view"
+        android:layout_width="fill_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="21dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/accountabilitygrps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Habits_textView"></LinearLayout>
+
+    <Button
+        android:id="@+id/accountabilitygrps"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/accgrpsnames"
+        app:layout_constraintBottom_toBottomOf="@id/islamiclearning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/habits_view" />
+
+    <Button
+        android:id="@+id/islamiclearning"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/islamic_learning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accountabilitygrps" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

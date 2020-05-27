@@ -12,4 +12,8 @@
     Group 1
     Group 2
     Group 3</string>
+    <string name="StreakRecord">0 prayers</string>
+    <string name="habitstitle">Habits</string>
+    <string name="accgrpsnames">Accountability Groups</string>
+    <string name="islamic_learning">Islamic Learning</string>
 </resources>
