@@ -25,4 +25,22 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.islamicrecovery.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settings_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setup"
+        android:name="com.example.islamicrecovery.Setup"
+        android:label="fragment_setup"
+        tools:layout="@layout/fragment_setup" >
+        <action
+            android:id="@+id/action_setup_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
 </navigation>

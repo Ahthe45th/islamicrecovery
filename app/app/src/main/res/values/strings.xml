@@ -16,4 +16,7 @@
     <string name="habitstitle">Habits</string>
     <string name="accgrpsnames">Accountability Groups</string>
     <string name="islamic_learning">Islamic Learning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
