@@ -1,0 +1,9 @@
+So first of all while we are designing the app before we do it we have to agree
+On what every element of the design will look like. So the background, the images
+on various buttons the background images on text etc
+
+then once weve done that and we know with some certainty what each part will look like
+we can download and install these things called widgets which will help us create 
+various looks for the app.
+Thats how we go about design.
+Courtesy of this indian dude on youtube.
