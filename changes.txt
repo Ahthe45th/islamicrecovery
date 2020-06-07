@@ -4,3 +4,5 @@ added currentnumbers.txt or something and shows how much we have left to go for 
 
 Uploaded some icons for the healthyhabits list and put them in directories based 
 on the habit which they were for
+
+added some more icons some of which could be better but ill edit more later
